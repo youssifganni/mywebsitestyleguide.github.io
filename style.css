@@ -1,0 +1,190 @@
+/* Elements */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainH1 {
+    margin-left: 100px;
+}
+
+.colorBlue h6 {
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+}
+
+.colorPink h6 {
+    text-align: center;
+    font-weight: 100;
+}
+
+.colorGreen h6 {
+    text-align: center;
+    font-weight: 100;
+}
+
+.colorBeige h6 {
+    text-align: center;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 21px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+p {
+
+}
+
+
+/* Colors */
+
+.containerColors {
+    border: 1.5px solid #a2a2a6;
+    margin: 0px 100px;
+    padding: 20px 10px;   
+}
+
+.flexBoxContainerColors {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+
+.colorBlue {
+    border: 1px solid #2d5dcc;
+    background-color: #2d5dcc;
+    flex: 1;
+    margin: 0px 3px;
+}
+
+.colorPink {
+    border: 1px solid #d957d9;
+    background-color: #d957d9;
+    flex: 1;
+    margin: 0px 5px;
+
+}
+
+.colorGreen {
+    border: 1px solid #4fe0b0;
+    background-color: #4fe0b0;
+    flex: 1;
+    margin: 0px 5px;
+}
+
+.colorBeige {
+    border: 1px solid #efd9ca;
+    background-color: #efd9ca;
+    flex: 1;
+    margin: 0px 5px;
+}
+
+/* Container */
+
+.containerFonts {
+    border: 1.5px solid #a2a2a6;
+    margin: 10px 100px;
+    padding: 20px 10px;
+} 
+
+.flexBoxContainerFonts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sourceCodePro h4 {
+    font-family: "Source Code Pro";
+    text-decoration: underline;
+    font-weight: 100;
+    flex: 1;
+    margin-right: 300px;
+}
+
+.nunitoSans h4 {
+    font-family: "Nunito Sans";
+    text-decoration: underline;
+    font-weight: 100;
+    flex: 1;
+    margin-right: 300px;
+}
+
+.poppins h4 {
+    font-family: "Poppins";
+    text-decoration: underline;
+    font-weight: 100;
+    flex: 1;
+    margin-right: 100px;
+}
+
+.sourceCodePro p {
+    font-size: 10px;
+    font-weight: 100;
+    flex: 1;
+    margin-right: 300px;
+}
+
+.nunitoSans p {
+    font-size: 10px;
+    font-weight: 100;
+    flex: 1;
+    margin-right: 300px;
+}
+
+.poppins p {
+    font-size: 10px;
+    font-weight: 100;
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Text Styles */
+
+.containerTextStyles {
+    border: 1.5px solid #a2a2a6;
+    margin: 10px 100px;
+    padding: 20px 10px;
+}
+
+.containerTextStyles ul li {
+    font-size: 10px;
+}
+
+.paragraph {
+    font-size: 12px;
+}
+
+
+/* Hover Styles */
+
+.colorBlue:hover {
+    background-color: #2d5dcc;
+    box-shadow: 1px 1px 20px #2d5dcc;
+    background-image: url('https://www.google.com/search?q=%232d5dcc&rlz=1C1VDKB_frCA940CA940&sxsrf=AJOqlzW-CfYo9vufJLe3Md2fsZJOpycGJg%3A1674604504464&ei=2G_QY5_wG-bk5NoPluum-Ag&ved=0ahUKEwifvIL1s-H8AhVmMlkFHZa1CY8Q4dUDCA8&uact=5&oq=%232d5dcc&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQogQyBwgAEB4QogQyBQgAEKIEOgcIIxCwAxAnSgQIQRgBSgQIRhgAUO4HWO4HYKcOaAFwAHgAgAFaiAFakgEBMZgBAKABAcgBAcABAQ&sclient=gws-wiz-serp');
+    
+}
+
+.colorPink:hover {
+    background-color: #d957d9;
+    box-shadow: 1px 1px 20px #d957d9;
+}
+
+.colorGreen:hover {
+    background-color: #4fe0b0;
+    box-shadow: 1px 1px 20px #4fe0b0;
+}
+
+.colorBeige:hover {
+    background-color: #efd9ca;
+    box-shadow: 1px 1px 20px #efd9ca;
+}
+
